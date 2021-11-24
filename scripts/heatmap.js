@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         "translate(" + margin.left + "," + margin.top + ")");
       
       //Read the data
-      d3.csv("https://raw.githubusercontent.com/andrewdoss-bit/d3_sandbox/main/pandemic_diffs.csv", function(data) {
+      d3.csv("https://raw.githubusercontent.com/andrewdoss-bit/andrewdoss-bit.github.io/master/data/pandemic_diffs.csv", function(data) {
           // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
           // data = data.filter(row => +row.group.substring(0,4) > 2019);
           data.forEach((row, index) => {
