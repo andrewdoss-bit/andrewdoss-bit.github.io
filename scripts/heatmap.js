@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
                    .style("opacity", 1)
           }
           var mousemove = function(d) {
-            tooltip.html('Hobby: ' + d.variable + '<br>Month: ' +  formatDate(d.year_month) + '<br>Value: ' + ((d.value > 0 ? '+' : '') + (+d.value).toFixed(0))).style("left", (d3.mouse(this)[0]+640) + "px").style("top", (d3.mouse(this)[1] + 325) + "px")
+            tooltip.html('Hobby: ' + d.variable + '<br>Month: ' +  formatDate(d.year_month) + '<br>Value: ' + ((d.value > 0 ? '+' : '') + (+d.value).toFixed(0))).style("left", (d3.mouse(this)[0]+590) + "px").style("top", (d3.mouse(this)[1] + 410) + "px")
           }
           var mouseleave = function(d) {
             tooltip.style("opacity", 0)
