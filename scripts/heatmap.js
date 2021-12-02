@@ -234,5 +234,29 @@ document.addEventListener("DOMContentLoaded", () => {
           .attr("y", -6)
           .text("2021 Begins")
 
+          svg.append('line')
+          .style("stroke", "#FFFFFF")
+          .style("stroke-width", 20)
+          .attr("x1", 0)
+          .attr("y1", 7831)
+          .attr("x2", 800)
+          .attr("y2", 7831)
+
+          svg.append('text')
+          .style("stroke", "#d46c64")
+          .style("fill", "#d46c64")
+          .style("text-anchor", "middle")
+          .attr("x", 60)
+          .attr("y", 7838)
+          .text("Pandemic Begins")
+
+          svg.append('text')
+          .style("stroke", "#555555")
+          .style("fill", "#555555")
+          .style("text-anchor", "middle")
+          .attr("x", 355)
+          .attr("y", 7838)
+          .text("2021 Begins")
+
       });
 });
